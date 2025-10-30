@@ -1,0 +1,58 @@
+2025-10-26T20:42:53.750Z INFO SharedStateManager initialized
+2025-10-26T20:42:53.753Z INFO Is remote: false
+2025-10-26T20:42:53.754Z INFO Starting Local. Installation path: c:\Users\Lenovo\OneDrive\diksha\Desktop\DRAS
+2025-10-26T20:42:53.760Z INFO [MainProvider] Creating new MainProvider instance...
+2025-10-26T20:42:57.280Z INFO User cancelled installation path selection or setup failed
+2025-10-26T20:42:57.281Z INFO Initializing database with URL: file:c:\Users\Lenovo\OneDrive\diksha\Desktop\DRAS\pythagora-core\data\database\pythagora.db
+2025-10-26T20:42:57.288Z INFO New database detected, running full prisma setup...
+2025-10-26T20:42:57.289Z INFO [c:\Users\Lenovo\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24] Project root:
+2025-10-26T20:42:57.290Z INFO [c:\Users\Lenovo\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\prisma\schema.prisma] Schema path:
+2025-10-26T20:42:57.290Z INFO [file:c:\Users\Lenovo\OneDrive\diksha\Desktop\DRAS\pythagora-core\data\database\pythagora.db] Database URL:
+2025-10-26T20:42:57.290Z INFO [true] Schema exists:
+2025-10-26T20:42:57.291Z INFO Running prisma generate first...
+2025-10-26T20:43:07.457Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.18.0) to .\src\generated\prisma in 313ms
+
+] Prisma generate result:
+2025-10-26T20:43:07.457Z INFO Running prisma db push to sync schema...
+2025-10-26T20:43:12.512Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:c:\Users\Lenovo\OneDrive\diksha\Desktop\DRAS\pythagora-core\data\database\pythagora.db"
+
+SQLite database pythagora.db created at file:c:\Users\Lenovo\OneDrive\diksha\Desktop\DRAS\pythagora-core\data\database\pythagora.db
+
+Your database is now in sync with your Prisma schema. Done in 298ms
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.18.0) to .\src\generated\prisma in 480ms
+
+] Prisma db push result:
+2025-10-26T20:43:12.513Z INFO Database initialized successfully
+2025-10-26T20:43:12.513Z INFO [Migration] Checking for database migration...
+2025-10-26T20:43:12.587Z INFO [Migration] No migration needed
+2025-10-26T21:09:26.787Z INFO Closing entire Pythagora extension...
+2025-10-26T21:09:26.796Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new lR (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:115042)
+	at C4.U (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:119652)
+	at s.<computed>.n.charCodeAt.s.<computed> (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:29:117146)
+	at Hb.g (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:41045)
+	at Hb.executeCommand (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:40549)
+	at Object.executeCommand (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:196:102286)
+	at closeEntirePythagoraExtension (c:\Users\Lenovo\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:390:31)
+	at Object.deactivate (c:\Users\Lenovo\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.5.24\out\extension.js:295:15)
+	at LZ.eb (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:11836)
+	at file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9986
+	at Array.map (<anonymous>)
+	at LZ.$ (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9974)
+	at LZ.terminate (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10217)
+	at E3.terminate (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:914)
+	at ws (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:10154)
+	at MessagePortMain.<anonymous> (file:///c:/Users/Lenovo/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:388:6693)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+Extra context: {
+  "message": "Canceled"
+}
